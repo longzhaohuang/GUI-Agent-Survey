@@ -44,7 +44,7 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 [62]-[70],[71]-[74],[78]-[80],[83]
 
 ## Dataset
-| **Dataset**                             | **Platform** | **Observe**       | **Chat** | **High-Level** | **Domain** | **Instance** |
+| **Dataset**                             | **Platform** | **Observe**       | **Chat** |   **High-Level**   | **Domain** | **Instance** |
 |--------------------------------------|----------|-----------------|------|-----------|--------|------------|
 | Meta-GUI~\cite{sun2022meta}         | Mobile   | ScreenShot, VH  | ✗    | ✓         | 11     | 1125       |
 | MobileGPT~\cite{lee2023explore}     | Mobile   | ScreenShot, VH  | ✗    | ✓         | 8      | 80         |
@@ -69,15 +69,7 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 | AssistGUI~\cite{gao2023assistgui}     | Computer | ScreenShot, Metadata | ✗    | ✓         | 9      | 100        |
 | AITW~\cite{rawles2023android}        | Mobile, Computer | ScreenShot | ✗    | ✓         | 357    | 30K        |
 | ScreenSpot~\cite{cheng2024seeclick}  | Mobile, Computer | ScreenShot | ✗    | ✗         | -      | 600        |
-
-### Overview of Datasets for GUI Task Automation
-The columns indicate:
-- The platform used (Platform)
-- The method of environment observation (Observe)
-- Support for multi-turn dialogue (Chat)
-- Whether tasks need multi-step to complete (High-Level)
-- The number of different domains included in the dataset (Domain)
-- The number of instances in the dataset (Instance)
+| Caption: Overview of Datasets for GUI Task Automation. The columns indicate: the platform used (Platform), the method of environment observation (Observe), support for multi-turn dialogue (Chat), whether tasks need multi-step to complete (High-Level), the number of different domains included in the dataset (Domain), and the number of instances in the dataset (Instance). |
 
 [11],[13],[79],[63,65],[113-124],[107,108],[69,74]
 

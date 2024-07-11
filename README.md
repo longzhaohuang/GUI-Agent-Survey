@@ -4,7 +4,7 @@ This is the official repository for the paper "Empowering GUI Agent with Large L
 
 ## Abstract
 
-The Graphical User Interface (GUI) is a visual method that allows users to interact with computers and mobile electronic devices. Nowadays users rely on GUI for completing some tasks such as browsing web or using mobile applications. Users often face the challenge to handle tedious tasks within GUI, such as replying to a specific type mass emails in Gmail application. Additionally, some blind users also have the need to use computers and mobile electronic devices. GUI Agent are designed to help users by automating tasks in the GUI environment. Traditional automation agents lack flexibility, are often limited to specific applications, and require significant manual intervention. Benefiting from the powerful planning and reasoning capabilities of Large Language Model (LLM), LLM-based Agent achieved significant success in some fields (healthcare and autonomous driving). Researchers have also begun to explore the potential of LLM-based GUI Agent to automate task. Fortunately, these GUI agents have overcome the limitations of traditional agents and demonstrated remarkable performance.  Our survey reviews recent relevant LLM-based GUI Agent research and defines GUI task automation flow,  we focus on three key issues : (1) GUI Environment Understanding;  (2) User Interaction Experience;  (3) Efficient automation task Key step.  We finally outline the challenge and future opportunity in this field. This paper aims to provide valuable insights for researchers and engineers. A comprehensive list of studies in this survey is available at [https://github.com/longzhaohuang/GUI-Agent-Survey](https://github.com/longzhaohuang/GUI-Agent-Survey).
+The Graphical User Interface (GUI) is a visual method that allows users to interact with computers and mobile electronic devices. Nowadays users rely on GUI for completing some tasks such as browsing web or using mobile applications. Users often face the challenge to handle tedious tasks within GUI, such as replying to a specific type mass emails in Gmail application. GUI Agent are designed to help users by automating tasks in the GUI environment. Traditional automation agents lack flexibility, are often limited to specific applications, and require significant manual intervention. Benefiting from the powerful planning and reasoning capabilities of Large Language Model (LLM), LLM-based Agent achieved significant success in some fields (healthcare and autonomous driving). Researchers have also begun to explore the potential of LLM-based GUI Agent to automate task. Fortunately, these GUI agents have overcome the limitations of traditional agents and demonstrated remarkable performance.  Our survey reviews recent relevant LLM-based GUI Agent research and defines GUI task automation flow,  we focus on three key issues : (1) GUI Environment Understanding;  (2) User Interaction Experience;  (3) Efficient automation task Key step.  We finally outline the challenge and future opportunity in this field. This paper aims to provide valuable insights for researchers and engineers. A comprehensive list of studies in this survey is available at [https://github.com/longzhaohuang/GUI-Agent-Survey](https://github.com/longzhaohuang/GUI-Agent-Survey).
 
 ## News
 
@@ -17,19 +17,9 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
   - [News](#news)
   - [Table of Contents](#table-of-contents)
   - [Related Surveys](#related-surveys)
-  - [Detector-based Models](#Detector-based-Models)
-    - [Detect-then-Describe](#Detect-then-Describe)
-    - [Joint Detection and Description](#Joint-Detection-and-Description)
-    - [Describe-then-Detect](#Describe-then-Detect)
-    - [Graph Based](#Graph-Based)
-  - [Detector-free Models](#Detector-free-Models)
-    - [CNN Based](#CNN-Based)
-    - [Transformer Based](#Transformer-Based)
-    - [Patch Based](#Patch-Based)
-  - [Applications](#applications)
-    - [Structure from Motion](#Structure-from-Motion)
-    - [Remote Sensing Image registration](#Remote-Sensing-Image-registration)
-    - [Medical Image Registration](#Medical-Image-Registration)
+  - [Text-Based Understanding Method](#Text-Based Understanding Method)
+  - [Vision-Based Understanding Method](#Vision-Based Understanding Method)
+  - [Hybrid Text-Vision Understanding Method](#Hybrid Text-Vision Understanding Method)
   - [Acknowledgement](#acknowledgement)
 
 ## Related Surveys

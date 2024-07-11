@@ -33,6 +33,10 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 * Recent advances in local feature detector and descriptor: a literature survey (IJMIR, 2020) [[paper]](https://link.springer.com/article/10.1007/s13735-020-00200-3)
 * Local feature descriptor for image matching: A survey (IEEE, 2018) [[paper]](https://ieeexplore.ieee.org/abstract/document/8584423/)
 
+## Text-Based Understanding Method
+## Vision-Based Understanding Method
+## Hybrid Text-Vision Understanding Method
+
 ## Detector-based Models
 
 <p align="center">
@@ -95,9 +99,6 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 * Paraformer: Parallel attention transformer for efficient feature matching (Arxiv, 2023) [[paper]](https://arxiv.org/pdf/2303.00941)
 * Resmatch: Residual attention learning for local feature matching (Arxiv, 2023) [[paper]](https://arxiv.org/pdf/2307.05180)
 * Densegap: graph-structured dense correspondence learning with anchor points (ICPR, 2022) [[paper]](https://arxiv.org/pdf/2112.06910)
-
-## Detector-free Models
-
 
 ## Acknowledgement
 

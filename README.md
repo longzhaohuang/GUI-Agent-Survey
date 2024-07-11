@@ -16,81 +16,64 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
   - [Abstract](#abstract)
   - [News](#news)
   - [Table of Contents](#table-of-contents)
-  - [Related Surveys](#related-surveys)
-  - [Text-Based Understanding Method](#Text-Based-Understanding-Method)
-  - [Vision-Based Understanding Method](#Vision-Based-Understanding-Method)
-  - [Hybrid Text-Vision Understanding Method](#Hybrid-Text-Vision-Understanding-Method)
+  - [GUI Environment Understanding](#GUI-Environment-Understanding)
+    - [Text-Based Understanding Method](#Text-Based-Understanding-Method)
+    - [Vision-Based Understanding Method](#Vision-Based-Understanding-Method)
+    - [Hybrid Text-Vision Understanding Method](#Hybrid-Text-Vision-Understanding-Method)
+  - [Device Control](#Device-Control)
+    - [Code-Based Method](#Code-Based-Method)
+    - [Ui-Based Method](#Ui-Based Method)
+  - [Dataset](#Dataset)
   - [Acknowledgement](#acknowledgement)
 
-## Related Surveys
+## GUI Environment Understanding
+### Text-Based Understanding Method
+[67][84][74][75]
 
-## Text-Based Understanding Method
+### Vision-Based Understanding Method
+[23][24][62][64][66][69][72][78][98]
 
-## Vision-Based Understanding Method
+### Hybrid Text-Vision Understanding Method
+[73][80][79][99]
 
-## Hybrid Text-Vision Understanding Method
+## Device Control
+### Code-Based Method
+[24][75][77][81][82][83]
 
-## Detector-based Models
+### Ui-Based Method
+[62]-[70],[71]-[74],[78]-[80],[83]
 
-<p align="center">
-  <img src="figs/Detector-based.jpg" width = "800"/>
-</p>
-<p align="center">
-  Fig.1: The comparison of various prominent Detector-based pipelines for trainable local feature matching is presented. Here, the categorization is based on the relationship between the detection and description steps: (a) Detect-then-Describe framework, (b) Joint Detection and Description framework, and (c) Describe-then-Detect framework.
-</p>
+## Dataset
+| Dataset                              | Platform | Observe         | Chat | High-Level | Domain | Instance   |
+|--------------------------------------|----------|-----------------|------|-----------|--------|------------|
+| Meta-GUI~\cite{sun2022meta}         | Mobile   | ScreenShot, VH  | ✗    | ✓         | 11     | 1125       |
+| MobileGPT~\cite{lee2023explore}     | Mobile   | ScreenShot, VH  | ✗    | ✓         | 8      | 80         |
+| PixelHelp~\cite{li2020mapping}       | Mobile   | ScreenShot, VH  | ✗    | ✓         | -      | 187        |
+| RICOSCA~\cite{li2020mapping}         | Mobile   | ScreenShot, VH  | ✗    | ✗         | -      | 25,677     |
+| MoTiF~\cite{burns2022dataset}       | Mobile   | ScreenShot, VH  | ✗    | ✓         | 125    | 61K        |
+| UGIF~\cite{venkatesh2022ugif}       | Mobile   | ScreenShot, VH  | ✗    | ✓         | -      | 523        |
+| MobileAgentBench~\cite{wang2024mobileagentbench} | Mobile | ScreenShot, VH  | ✗    | ✓         | 10     | 100        |
+| DroidTask~\cite{wen2023empowering}   | Mobile   | ScreenShot, VH  | ✗    | ✓         | 13     | 158        |
+| AndroidEnv~\cite{toyama2021androidenv}| Mobile   | ScreenShot       | ✗    | ✓         | 30     | 100        |
+| MobileEnv~\cite{zhang2023mobile}     | Mobile   | ScreenShot, VH  | ✗    | ✓         | -      | 856,045    |
+| WebArena~\cite{zhou2023webarena}     | Computer | ScreenShot, DOM | ✗    | ✓         | 6      | 812        |
+| VWA~\cite{koh2024visualwebarena}     | Computer | ScreenShot, DOM | ✗    | ✓         | 3      | 910        |
+| WebVoyager~\cite{he2024webvoyager}   | Computer | ScreenShot, DOM | ✗    | ✓         | 15     | 300        |
+| WebShop~\cite{yao2022webshop}        | Computer | ScreenShot, DOM | ✗    | ✓         | 1      | 12,087     |
+| MninWoB++~\cite{shi2017world}        | Computer | ScreenShot, DOM | ✗    | ✗         | 100    | 17,971     |
+| WebLINX~\cite{lu2024weblinx}         | Computer | ScreenShot, DOM | ✓    | ✓         | 155    | 2337       |
+| RUSS~\cite{xu2021grounding}          | Computer | ScreenShot, DOM | ✓    | ✓         | 22     | 80         |
+| PharseNode~\cite{pasupat2018mapping} | Computer | ScreenShot, DOM | ✗    | ✗         | -      | 51,663     |
+| UIBert~\cite{bai2021uibert}          | Computer | ScreenShot, DOM | ✗    | ✗         | -      | 16,660     |
+| Mind2Web~\cite{deng2024mind2web}     | Computer | ScreenShot, DOM | ✗    | ✓         | 137    | 2,350      |
+| AssistGUI~\cite{gao2023assistgui}     | Computer | ScreenShot, Metadata | ✗    | ✓         | 9      | 100        |
+| AITW~\cite{rawles2023android}        | Mobile, Computer | ScreenShot | ✗    | ✓         | 357    | 30K        |
+| ScreenSpot~\cite{cheng2024seeclick}  | Mobile, Computer | ScreenShot | ✗    | ✗         | -      | 600        |
 
-### Detect-then-Describe
+| Caption: Overview of Datasets for GUI Task Automation. The columns indicate: the platform used (Platform), the method of environment observation (Observe), support for multi-turn dialogue (Chat), whether tasks need multi-step to complete (High-Level), the number of different domains included in the dataset (Domain), and the number of instances in the dataset (Instance). |
 
-* Zippypoint: Fast interest point detection, description, and matching through mixed precision discretization (CVPR, 2023) [[paper]](https://openaccess.thecvf.com/content/CVPR2023W/IMW/papers/Kanakis_ZippyPoint_Fast_Interest_Point_Detection_Description_and_Matching_Through_Mixed_CVPRW_2023_paper.pdf)
-* Attention weighted local descriptors (IEEE, 2023) [[paper]](https://ieeexplore.ieee.org/abstract/document/10105519/)
-* Mtldesc: Looking wider to describe better (AAAI, 2022) [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/20138/19897)
-* Cndesc: Cross normalization for local descriptors learning (IEEE, 2022) [[paper]](https://ieeexplore.ieee.org/abstract/document/9761761/)
-* Alike: Accurate and lightweight keypoint detection and descriptor extraction (IEEE, 2022) [[paper]](https://arxiv.org/pdf/2112.02906)
-* Neural outlier rejection for self-supervised keypoint learning (ICLR, 2020) [[paper]](https://arxiv.org/pdf/1912.10615)
-* Hynet: Learning local descriptor with hybrid similarity measure and triplet loss (NIPS, 2020) [[paper]](https://proceedings.neurips.cc/paper/2020/file/52d2752b150f9c35ccb6869cbf074e48-Paper.pdf)
-* Key. net: Keypoint detection by handcrafted and learned cnn filters (ICCV, 2019) [[paper]](http://openaccess.thecvf.com/content_ICCV_2019/papers/Barroso-Laguna_Key.Net_Keypoint_Detection_by_Handcrafted_and_Learned_CNN_Filters_ICCV_2019_paper.pdf)
-* Beyond cartesian representations for local descriptors (ICCV, 2019) [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Ebel_Beyond_Cartesian_Representations_for_Local_Descriptors_ICCV_2019_paper.pdf)
-* Sosnet: Second order similarity regularization for local descriptor learning (CVPR, 2019) [[paper]](http://openaccess.thecvf.com/content_CVPR_2019/papers/Tian_SOSNet_Second_Order_Similarity_Regularization_for_Local_Descriptor_Learning_CVPR_2019_paper.pdf)
-* Geodesc: Learning local descriptors by integrating geometry constraints (ECCV, 2018) [[paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Zixin_Luo_Learning_Local_Descriptors_ECCV_2018_paper.pdf)
-* Working hard to know your neighbor’s margins: Local descriptor learning loss (NIPS, 2017) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2017/file/831caa1b600f852b7844499430ecac17-Paper.pdf)
-* L2-net: Deep learning of discriminative patch descriptor in euclidean space (CVPR, 2017) [[paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tian_L2-Net_Deep_Learning_CVPR_2017_paper.pdf)
-* Learning to assign orientations to feature points (CVPR, 2016) [[paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Yi_Learning_to_Assign_CVPR_2016_paper.pdf)
+[11],[13],[79],[63,65],[113-124],[107,108],[69,74]
 
-### Joint Detection and Description
-
-* Sfd2: Semantic-guided feature detection and description (CVPR, 2023) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Xue_SFD2_Semantic-Guided_Feature_Detection_and_Description_CVPR_2023_paper.pdf)
-* Learning semantic-aware local features for long term visual localization (IEEE, 2022) [[paper]](https://ieeexplore.ieee.org/abstract/document/9829199/)
-* Learning of low-level feature keypoints for accurate and robust detection (WACV, 2021) [[paper]](https://openaccess.thecvf.com/content/WACV2021/papers/Suwanwimolkul_Learning_of_Low-Level_Feature_Keypoints_for_Accurate_and_Robust_Detection_WACV_2021_paper.pdf)
-* Aslfeat: Learning local features of accurate shape and localization (CVPR, 2020) [[paper]](http://openaccess.thecvf.com/content_CVPR_2020/papers/Luo_ASLFeat_Learning_Local_Features_of_Accurate_Shape_and_Localization_CVPR_2020_paper.pdf)
-* Mlifeat: Multi-level information fusion based deep local features (ACCV, 2020) [[paper]](http://openaccess.thecvf.com/content/ACCV2020/papers/Zhang_MLIFeat_Multi-level_information_fusion_based_deep_local_features_ACCV_2020_paper.pdf)
-* Hdd-net: Hybrid detector descriptor with mutual interactive learning (ACCV, 2020) [[paper]](http://openaccess.thecvf.com/content/ACCV2020/papers/Barroso-Laguna_HDD-Net_Hybrid_Detector_Descriptor_with_Mutual_Interactive_Learning_ACCV_2020_paper.pdf)
-* Reinforced feature points: Optimizing feature detection and description for a high-level task (CVPR, 2020) [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Bhowmik_Reinforced_Feature_Points_Optimizing_Feature_Detection_and_Description_for_a_CVPR_2020_paper.pdf)
-* Rfnet: An end-to-end image matching network based on receptive field (CVPR, 2019) [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Shen_RF-Net_An_End-To-End_Image_Matching_Network_Based_on_Receptive_Field_CVPR_2019_paper.pdf)
-* Lf-net: Learning local features from images (NIPS, 2018) [[paper]](https://proceedings.neurips.cc/paper_files/paper/2018/file/f5496252609c43eb8a3d147ab9b9c006-Paper.pdf)
-
-
-### Describe-then-Detect
-
-* Shared coupling-bridge for weakly supervised local feature learning (Arxiv, 2022) [[paper]](https://arxiv.org/pdf/2212.07047)
-* Redfeat: Recoupling detection and description for multimodal feature learning (IEEE, 2022) [[paper]](https://arxiv.org/pdf/2205.07439)
-* Decoupling makes weakly supervised local feature better (CVPR, 2022) [[paper]](http://openaccess.thecvf.com/content/CVPR2022/papers/Li_Decoupling_Makes_Weakly_Supervised_Local_Feature_Better_CVPR_2022_paper.pdf)
-* D2d: Keypoint extraction with describe to detect approach (ACCV, 2020) [[paper]](http://openaccess.thecvf.com/content/ACCV2020/papers/Tian_D2D_Keypoint_Extraction_with_Describe_to_Detect_Approach_ACCV_2020_paper.pdf)
-
-### Graph Based
-
-<p align="center">
-  <img src="figs/GNN.jpg" width = "800"/>
-</p>
-<p align="center">
-  Fig.2: General GNN Matching Model Architecture. Firstly, keypoint positions p<sub>i</sub> along with their visual descriptors d<sub>i</sub> are mapped into individual vectors. Subsequently, self-attention layers and cross-attention layers are thereafter applied alternately, L times, within a graph neural network to create enhanced matching descriptors. Finally, the Sinkhorn Algorithm is utilized to determine the optimal partial assignment.
-</p>
-
-* Gluestick: Robust image matching by sticking points and lines together (ICCV, 2023) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Pautrat_GlueStick_Robust_Image_Matching_by_Sticking_Points_and_Lines_Together_ICCV_2023_paper.pdf)
-* Learning feature matching via matchable keypoint-assisted graph neural network (Arxiv, 2023) [[paper]](https://arxiv.org/pdf/2307.01447)
-* Lightglue: Local feature matching at light speed (ICCV, 2023) [[paper]](https://arxiv.org/abs/2306.13643)
-* Htmatch: An efficient hybrid transformer based graph neural network for local feature matching (Signal Processing, 2023) [[paper]](https://www.sciencedirect.com/science/article/pii/S016516842200398X)
-* Paraformer: Parallel attention transformer for efficient feature matching (Arxiv, 2023) [[paper]](https://arxiv.org/pdf/2303.00941)
-* Resmatch: Residual attention learning for local feature matching (Arxiv, 2023) [[paper]](https://arxiv.org/pdf/2307.05180)
 * Densegap: graph-structured dense correspondence learning with anchor points (ICPR, 2022) [[paper]](https://arxiv.org/pdf/2112.06910)
 
 ## Acknowledgement

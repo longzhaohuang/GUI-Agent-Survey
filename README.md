@@ -24,6 +24,7 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
   - [Device Control](#Device-Control)
     - [Code-Based Method](#Code-Based-Method)
     - [Ui-Based Method](#Ui-Based-Method)
+    - [Code-Based 、 Ui-Based Method](#Code-Based-、-Ui-Based-Method)
   - [Dataset](#Dataset)
   - [Acknowledgement](#acknowledgement)
 

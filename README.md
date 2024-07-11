@@ -42,8 +42,7 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 * A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis [[paper]](https://arxiv.org/abs/2307.12856)
 * WebGPT: Browser-assisted question-answering with human feedback [[paper]](https://arxiv.org/abs/2112.09332)
 * Language Models can Solve Computer Tasks [[paper]](https://arxiv.org/abs/2303.17491)
-* Adaplanner: Adaptive planning from feedback with language model[[paper]]()
-[82]* [[paper]]()
+* Adaplanner: Adaptive planning from feedback with language model[[paper]](https://arxiv.org/pdf/2305.16653)
 
 ### Vision-Based Understanding Method
 * GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation [[paper]](https://arxiv.org/abs/2311.07562)
@@ -56,10 +55,9 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 * Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration [[paper]](https://arxiv.org/pdf/2406.01014)
 * SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents [[paper]](https://arxiv.org/abs/2401.10935)
 * CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation[[paper]](https://arxiv.org/pdf/2402.11941)
-* [[paper]]()
 * Cogagent: A visual language model for gui agents[[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Hong_CogAgent_A_Visual_Language_Model_for_GUI_Agents_CVPR_2024_paper.pdf)
-[81]* [[paper]]()
-[83]* [[paper]]()
+* UFO: A UI-Focused Agent for Windows OS Interaction [[paper]](https://arxiv.org/pdf/2402.07939)
+* MMAC-Copilot: Multi-modal Agent Collaboration Operating System Copilot [[paper]](https://arxiv.org/abs/2404.18074)
 
 ### Hybrid Text-Vision Understanding Method
 * AppAgent: Multimodal Agents as Smartphone Users [[paper]](https://arxiv.org/abs/2312.13771)
@@ -68,6 +66,7 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 * Dual-View Visual Contextualization for Web Navigation [[paper]](https://arxiv.org/abs/2402.04476)
 * WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models [[paper]](https://arxiv.org/abs/2401.13919)
 * Do BERTs Learn to Use Browser User Interface? Exploring Multi-Step Tasks with Unified Vision-and-Language BERTs [[paper]](https://arxiv.org/pdf/2203.07828)
+* AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent [[paper]](https://arxiv.org/pdf/2404.03648)
 
 ## Device Control
 ### Code-Based Method

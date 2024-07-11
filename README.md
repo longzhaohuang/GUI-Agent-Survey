@@ -44,32 +44,6 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 [62]-[70],[71]-[74],[78]-[80],[83]
 
 ## Dataset
-| **Dataset**                             | **Platform** | **Observe**       | **Chat** |   **High-Level**   | **Domain** | **Instance** |
-|--------------------------------------|----------|-----------------|------|-----------|--------|------------|
-| Meta-GUI~\cite{sun2022meta}         | Mobile   | ScreenShot, VH  | ✗    | ✓         | 11     | 1125       |
-| MobileGPT~\cite{lee2023explore}     | Mobile   | ScreenShot, VH  | ✗    | ✓         | 8      | 80         |
-| PixelHelp~\cite{li2020mapping}       | Mobile   | ScreenShot, VH  | ✗    | ✓         | -      | 187        |
-| RICOSCA~\cite{li2020mapping}         | Mobile   | ScreenShot, VH  | ✗    | ✗         | -      | 25,677     |
-| MoTiF~\cite{burns2022dataset}       | Mobile   | ScreenShot, VH  | ✗    | ✓         | 125    | 61K        |
-| UGIF~\cite{venkatesh2022ugif}       | Mobile   | ScreenShot, VH  | ✗    | ✓         | -      | 523        |
-| MobileAgentBench~\cite{wang2024mobileagentbench} | Mobile | ScreenShot, VH  | ✗    | ✓         | 10     | 100        |
-| DroidTask~\cite{wen2023empowering}   | Mobile   | ScreenShot, VH  | ✗    | ✓         | 13     | 158        |
-| AndroidEnv~\cite{toyama2021androidenv}| Mobile   | ScreenShot       | ✗    | ✓         | 30     | 100        |
-| MobileEnv~\cite{zhang2023mobile}     | Mobile   | ScreenShot, VH  | ✗    | ✓         | -      | 856,045    |
-| WebArena~\cite{zhou2023webarena}     | Computer | ScreenShot, DOM | ✗    | ✓         | 6      | 812        |
-| VWA~\cite{koh2024visualwebarena}     | Computer | ScreenShot, DOM | ✗    | ✓         | 3      | 910        |
-| WebVoyager~\cite{he2024webvoyager}   | Computer | ScreenShot, DOM | ✗    | ✓         | 15     | 300        |
-| WebShop~\cite{yao2022webshop}        | Computer | ScreenShot, DOM | ✗    | ✓         | 1      | 12,087     |
-| MninWoB++~\cite{shi2017world}        | Computer | ScreenShot, DOM | ✗    | ✗         | 100    | 17,971     |
-| WebLINX~\cite{lu2024weblinx}         | Computer | ScreenShot, DOM | ✓    | ✓         | 155    | 2337       |
-| RUSS~\cite{xu2021grounding}          | Computer | ScreenShot, DOM | ✓    | ✓         | 22     | 80         |
-| PharseNode~\cite{pasupat2018mapping} | Computer | ScreenShot, DOM | ✗    | ✗         | -      | 51,663     |
-| UIBert~\cite{bai2021uibert}          | Computer | ScreenShot, DOM | ✗    | ✗         | -      | 16,660     |
-| Mind2Web~\cite{deng2024mind2web}     | Computer | ScreenShot, DOM | ✗    | ✓         | 137    | 2,350      |
-| AssistGUI~\cite{gao2023assistgui}     | Computer | ScreenShot, Metadata | ✗    | ✓         | 9      | 100        |
-| AITW~\cite{rawles2023android}        | Mobile, Computer | ScreenShot | ✗    | ✓         | 357    | 30K        |
-| ScreenSpot~\cite{cheng2024seeclick}  | Mobile, Computer | ScreenShot | ✗    | ✗         | -      | 600        |
-| Caption: Overview of Datasets for GUI Task Automation. The columns indicate: the platform used (Platform), the method of environment observation (Observe), support for multi-turn dialogue (Chat), whether tasks need multi-step to complete (High-Level), the number of different domains included in the dataset (Domain), and the number of instances in the dataset (Instance). |
 
 [11],[13],[79],[63,65],[113-124],[107,108],[69,74]
 

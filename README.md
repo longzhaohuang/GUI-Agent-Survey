@@ -16,6 +16,7 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
   - [Abstract](#abstract)
   - [News](#news)
   - [Table of Contents](#table-of-contents)
+  - [Related Paper](#related-paper)
   - [GUI Environment Understanding](#GUI-Environment-Understanding)
     - [Text-Based Understanding Method](#Text-Based-Understanding-Method)
     - [Vision-Based Understanding Method](#Vision-Based-Understanding-Method)
@@ -26,31 +27,47 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
   - [Dataset](#Dataset)
   - [Acknowledgement](#acknowledgement)
 
+## Related Paper
+* Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security
+ [[paper]](https://arxiv.org/abs/2401.05459)
+* The Rise and Potential of Large Language Model Based Agents: A Survey [[paper]](https://arxiv.org/abs/2309.07864)
+* Large Language Model based Multi-Agents: A Survey of Progress and Challenges [[paper]](https://arxiv.org/abs/2402.01680)
+
 ## GUI Environment Understanding
 ### Text-Based Understanding Method
-[65]* Explore, Select, Derive, and Recall: Augmenting LLM with Human-like Memory for Mobile Task Automation [[paper]](https://arxiv.org/pdf/2312.03003)
-[67]* [[paper]]() 
-[84]* [[paper]]()
-[74]* [[paper]]()
-[75]* [[paper]]()
+* Explore, Select, Derive, and Recall: Augmenting LLM with Human-like Memory for Mobile Task Automation [[paper]](https://arxiv.org/pdf/2312.03003)
+* DroidBot-GPT: GPT-powered UI Automation for Android [[paper]](https://arxiv.org/pdf/2304.07061) 
+* Enabling Conversational Interaction with Mobile UI using Large Language Models [[paper]](https://arxiv.org/abs/2209.08655)
+* Mind2Web: Towards a Generalist Agent for the Web [[paper]](https://arxiv.org/abs/2306.06070)
+* A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis [[paper]](https://arxiv.org/abs/2307.12856)
+* WebGPT: Browser-assisted question-answering with human feedback [[paper]](https://arxiv.org/abs/2112.09332)
+* Language Models can Solve Computer Tasks [[paper]](https://arxiv.org/abs/2303.17491)
+* Adaplanner: Adaptive planning from feedback with language model[[paper]]()
+[82]* [[paper]]()
 
 ### Vision-Based Understanding Method
-[23]* GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation [[paper]]()
-[24]* [[paper]]()
-[62]* Spotlight: Mobile UI Understanding using Vision-Language Models with a Focus [[paper]](https://arxiv.org/abs/2209.14927)
-[63]* META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI [[paper]](https://arxiv.org/pdf/2205.11029)
-[64]* You Only Look at Screens: Multimodal Chain-of-Action Agents [[paper]](https://arxiv.org/abs/2309.11436)
-[69]* [[paper]]()
-[72]* [[paper]]()
-[78]* [[paper]]()
-[98]* [[paper]]()
+* GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation [[paper]](https://arxiv.org/abs/2311.07562)
+* WebWISE: Web Interface Control and Sequential Exploration with Large Language Models
+[[paper]](https://arxiv.org/pdf/2310.16042)
+* Spotlight: Mobile UI Understanding using Vision-Language Models with a Focus [[paper]](https://arxiv.org/abs/2209.14927)
+* META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI [[paper]](https://arxiv.org/pdf/2205.11029)
+* You Only Look at Screens: Multimodal Chain-of-Action Agents [[paper]](https://arxiv.org/abs/2309.11436)
+* Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception[[paper]](https://arxiv.org/pdf/2401.16158)
+* Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration [[paper]](https://arxiv.org/pdf/2406.01014)
+* SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents [[paper]](https://arxiv.org/abs/2401.10935)
+* CoCo-Agent: A Comprehensive Cognitive MLLM Agent for Smartphone GUI Automation[[paper]](https://arxiv.org/pdf/2402.11941)
+* [[paper]]()
+* Cogagent: A visual language model for gui agents[[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Hong_CogAgent_A_Visual_Language_Model_for_GUI_Agents_CVPR_2024_paper.pdf)
+[81]* [[paper]]()
+[83]* [[paper]]()
 
 ### Hybrid Text-Vision Understanding Method
-[66]* AppAgent: Multimodal Agents as Smartphone Users [[paper]](https://arxiv.org/abs/2312.13771)
-[73]* [[paper]]()
-[80]* [[paper]]()
-[79]* [[paper]]()
-[99]* [[paper]]()
+* AppAgent: Multimodal Agents as Smartphone Users [[paper]](https://arxiv.org/abs/2312.13771)
+* Multimodal Web Navigation with Instruction-Finetuned Foundation Models [[paper]](https://arxiv.org/abs/2307.12856)
+* GPT-4V(ision) is a Generalist Web Agent, if Grounded[[paper]](https://arxiv.org/abs/2401.01614)
+* Dual-View Visual Contextualization for Web Navigation [[paper]](https://arxiv.org/abs/2402.04476)
+* WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models [[paper]](https://arxiv.org/abs/2401.13919)
+* Do BERTs Learn to Use Browser User Interface? Exploring Multi-Step Tasks with Unified Vision-and-Language BERTs [[paper]](https://arxiv.org/pdf/2203.07828)
 
 ## Device Control
 ### Code-Based Method

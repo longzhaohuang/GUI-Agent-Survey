@@ -24,17 +24,10 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 
 ## Related Surveys
 
-* Advances and Challenges in Multimodal Remote Sensing Image Registration (IEEE, 2023) [[paper]](https://ieeexplore.ieee.org/abstract/document/10044278)
-* A survey on deep learning in medical image registration: new technologies, uncertainty, evaluation metrics, and beyond (Arxiv, 2023) [[paper]](https://arxiv.org/abs/2307.15615)
-* Image Feature Information Extraction for Interest Point Detection: A Comprehensive Review (IEEE, 2022) [[paper]](https://ieeexplore.ieee.org/abstract/document/9866553)
-* Challenges in Image Matching for Cultural Heritage: An Overview and Perspective (ICIAP, 2022) [[paper]](https://link.springer.com/chapter/10.1007/978-3-031-13321-3_19)
-* A review of multimodal image matching: Methods and applications (Information Fusion, 2021) [[paper]](https://www.sciencedirect.com/science/article/pii/S156625352100035X)
-* Image Matching from Handcrafted to Deep Features: A Survey (IJCV, 2021) [[paper]](https://link.springer.com/article/10.1007/s11263-020-01359-2)
-* Recent advances in local feature detector and descriptor: a literature survey (IJMIR, 2020) [[paper]](https://link.springer.com/article/10.1007/s13735-020-00200-3)
-* Local feature descriptor for image matching: A survey (IEEE, 2018) [[paper]](https://ieeexplore.ieee.org/abstract/document/8584423/)
-
 ## Text-Based Understanding Method
+
 ## Vision-Based Understanding Method
+
 ## Hybrid Text-Vision Understanding Method
 
 ## Detector-based Models

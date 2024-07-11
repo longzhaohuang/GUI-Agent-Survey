@@ -28,26 +28,86 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 
 ## GUI Environment Understanding
 ### Text-Based Understanding Method
-[67][84][74][75]
+[65]* Explore, Select, Derive, and Recall: Augmenting LLM with Human-like Memory for Mobile Task Automation [[paper]](https://arxiv.org/pdf/2312.03003)
+[67]* [[paper]]() 
+[84]* [[paper]]()
+[74]* [[paper]]()
+[75]* [[paper]]()
 
 ### Vision-Based Understanding Method
-[23][24][62][64][66][69][72][78][98]
+[23]* GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation [[paper]]()
+[24]* [[paper]]()
+[62]* Spotlight: Mobile UI Understanding using Vision-Language Models with a Focus [[paper]](https://arxiv.org/abs/2209.14927)
+[63]* META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI [[paper]](https://arxiv.org/pdf/2205.11029)
+[64]* You Only Look at Screens: Multimodal Chain-of-Action Agents [[paper]](https://arxiv.org/abs/2309.11436)
+[69]* [[paper]]()
+[72]* [[paper]]()
+[78]* [[paper]]()
+[98]* [[paper]]()
 
 ### Hybrid Text-Vision Understanding Method
-[73][80][79][99]
+[66]* AppAgent: Multimodal Agents as Smartphone Users [[paper]](https://arxiv.org/abs/2312.13771)
+[73]* [[paper]]()
+[80]* [[paper]]()
+[79]* [[paper]]()
+[99]* [[paper]]()
 
 ## Device Control
 ### Code-Based Method
-[24][75][77][81][82][83]
+[24]* [[paper]]()
+[75]* [[paper]]()
+[77]* [[paper]]()
+[81]* [[paper]]()
+[82]* [[paper]]()
+[83]* [[paper]]()
 
 ### Ui-Based Method
-[62]-[70],[71]-[74],[78]-[80],[83]
+[62]* [[paper]]()
+[63]* [[paper]]()
+[64]* [[paper]]()
+[65]* [[paper]]()
+[66]* [[paper]]()
+[67]* [[paper]]()
+[68]* [[paper]]()
+[69]* [[paper]]()
+[70]* [[paper]]()
+[71]* [[paper]]()
+[72]* [[paper]]()
+[73]* [[paper]]()
+[74]* [[paper]]()
+[78]* [[paper]]()
+[79]* [[paper]]()
+[80]* [[paper]]()
+[83]* [[paper]]()
 
 ## Dataset
+[11]* [[paper]]()
+[13]* [[paper]]()
+[79]* [[paper]]()
+[63]* [[paper]]()
+[64]* [[paper]]()
+[65]* [[paper]]()
+[69]* [[paper]]()
+[70]* [[paper]]()
+[71]* [[paper]]()
+[72]* [[paper]]()
+[73]* [[paper]]()
+[74]* [[paper]]()
+[107]* [[paper]]()
+[108]* [[paper]]()
+[113]* [[paper]]()
+[114]* [[paper]]()
+[115]* [[paper]]()
+[116]* [[paper]]()
+[117]* [[paper]]()
+[118]* [[paper]]()
+[119]* [[paper]]()
+[120]* [[paper]]()
+[121]* [[paper]]()
+[122]* [[paper]]()
+[123]* [[paper]]()
+[124]* [[paper]]()
 
-[11],[13],[79],[63,65],[113-124],[107,108],[69,74]
-
-* Densegap: graph-structured dense correspondence learning with anchor points (ICPR, 2022) [[paper]](https://arxiv.org/pdf/2112.06910)
 
 ## Acknowledgement
 

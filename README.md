@@ -17,9 +17,9 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
   - [News](#news)
   - [Table of Contents](#table-of-contents)
   - [Related Surveys](#related-surveys)
-  - [Text-Based Understanding Method](#Text-Based Understanding Method)
-  - [Vision-Based Understanding Method](#Vision-Based Understanding Method)
-  - [Hybrid Text-Vision Understanding Method](#Hybrid Text-Vision Understanding Method)
+  - [Text-Based Understanding Method](#Text-Based-Understanding-Method)
+  - [Vision-Based Understanding Method](#Vision-Based-Understanding-Method)
+  - [Hybrid Text-Vision Understanding Method](#Hybrid-Text-Vision-Understanding-Method)
   - [Acknowledgement](#acknowledgement)
 
 ## Related Surveys

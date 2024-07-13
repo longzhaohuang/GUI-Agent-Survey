@@ -26,7 +26,6 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
     - [Ui-Based Method](#Ui-Based-Method)
     - [Code-Based 、 Ui-Based Method](#Code-Based-、-Ui-Based-Method)
   - [Dataset](#Dataset)
-  - [Acknowledgement](#acknowledgement)
 
 ## Related Paper
 * Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security
@@ -122,8 +121,3 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 * UIBert: Learning Generic Multimodal Representations for UI Understanding [[paper]](https://arxiv.org/abs/2107.13731)
 * ASSISTGUI: Task-Oriented Desktop Graphical User Interface Automation [[paper]](https://arxiv.org/abs/2312.13108)
 * Android in the Wild: A Large-Scale Dataset for Android Device Control [[paper]](https://arxiv.org/abs/2307.10088)
-
-
-## Acknowledgement
-
-This work is supported by Beijing Natural Science Foundation No. JQ23014, in part by the National Natural Science Foundation of China (No. 62271074).

@@ -33,8 +33,9 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 * The Rise and Potential of Large Language Model Based Agents: A Survey [[paper]](https://arxiv.org/abs/2309.07864)
 * Large Language Model based Multi-Agents: A Survey of Progress and Challenges [[paper]](https://arxiv.org/abs/2402.01680)
 
-## GUI Environment Understanding
-### Text-Based Understanding Method
+## The core capability of GUI Agent
+### GUI Environment Understanding
+#### Text-Based Understanding Method
 * Explore, Select, Derive, and Recall: Augmenting LLM with Human-like Memory for Mobile Task Automation [[paper]](https://arxiv.org/pdf/2312.03003)
 * DroidBot-GPT: GPT-powered UI Automation for Android [[paper]](https://arxiv.org/pdf/2304.07061) 
 * Enabling Conversational Interaction with Mobile UI using Large Language Models [[paper]](https://arxiv.org/abs/2209.08655)
@@ -44,7 +45,7 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 * Language Models can Solve Computer Tasks [[paper]](https://arxiv.org/abs/2303.17491)
 * Adaplanner: Adaptive planning from feedback with language model[[paper]](https://arxiv.org/pdf/2305.16653)
 
-### Vision-Based Understanding Method
+#### Vision-Based Understanding Method
 * GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation [[paper]](https://arxiv.org/abs/2311.07562)
 * WebWISE: Web Interface Control and Sequential Exploration with Large Language Models
 [[paper]](https://arxiv.org/pdf/2310.16042)
@@ -60,7 +61,7 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 * MMAC-Copilot: Multi-modal Agent Collaboration Operating System Copilot [[paper]](https://arxiv.org/abs/2404.18074)
 * From Pixels to UI Actions: Learning to Follow Instructions via Graphical User Interfaces [[paper]](https://arxiv.org/abs/2306.00245)
 
-### Hybrid Text-Vision Understanding Method
+#### Hybrid Text-Vision Understanding Method
 * AppAgent: Multimodal Agents as Smartphone Users [[paper]](https://arxiv.org/abs/2312.13771)
 * Multimodal Web Navigation with Instruction-Finetuned Foundation Models [[paper]](https://arxiv.org/abs/2305.11854)
 * GPT-4V(ision) is a Generalist Web Agent, if Grounded[[paper]](https://arxiv.org/abs/2401.01614)
@@ -69,13 +70,13 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 * Do BERTs Learn to Use Browser User Interface? Exploring Multi-Step Tasks with Unified Vision-and-Language BERTs [[paper]](https://arxiv.org/pdf/2203.07828)
 * AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent [[paper]](https://arxiv.org/pdf/2404.03648)
 
-## Device Control
-### Code-Based Method
+### Device Control
+#### Code-Based Method
 * WebWISE: Web Interface Control and Sequential Exploration with Large Language Models [[paper]](https://arxiv.org/abs/2310.16042)
 * A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis [[paper]](https://arxiv.org/abs/2307.12856)
 * Adaplanner: Adaptive planning from feedback with language model [[paper]](https://arxiv.org/pdf/2305.16653)
 
-### Ui-Based Method
+#### Ui-Based Method
 * Spotlight: Mobile UI Understanding using Vision-Language Models with a Focus [[paper]](https://arxiv.org/abs/2209.14927)
 * META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI [[paper]](https://arxiv.org/pdf/2205.11029)
 * You Only Look at Screens: Multimodal Chain-of-Action Agents [[paper]](https://arxiv.org/abs/2309.11436)
@@ -96,8 +97,27 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 * UFO: A UI-Focused Agent for Windows OS Interaction [[paper]](https://arxiv.org/pdf/2402.07939)
 * AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent [[paper]](https://arxiv.org/pdf/2404.03648)
 
-### Code-Based 、 Ui-Based Method
+#### Code-Based 、 Ui-Based Method
 * MMAC-Copilot: Multi-modal Agent Collaboration Operating System Copilot [[paper]](https://arxiv.org/abs/2404.18074)
+
+### User Intersection
+#### multi-turn dialogues
+* META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI [[paper]](https://arxiv.org/abs/2205.11029)
+* WebLINX: Real-World Website Navigation with Multi-Turn Dialogue [[paper]](https://arxiv.org/abs/2402.05930)
+* Grounding Open-Domain Instructions to Automate Web Support Tasks [[paper]](https://arxiv.org/abs/2103.16057)
+
+### Personalized services
+* Os-copilot: Towards generalist computer agents with self-improvement [[paper]](https://arxiv.org/abs/2402.07456)
+
+### User Intersection
+* UFO: A UI-Focused Agent for Windows OS Interaction [[paper]](https://arxiv.org/pdf/2402.07939)
+* MMAC-Copilot: Multi-modal Agent Collaboration Operating System Copilot [[paper]](https://arxiv.org/abs/2404.18074)
+* Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration [[paper]](https://arxiv.org/pdf/2406.01014)
+
+## Task Automation Pipeline
+* AutoDroid: LLM-powered Task Automation in Android [[paper]](https://arxiv.org/abs/2308.15272)
+* Explore, Select, Derive, and Recall: Augmenting LLM with Human-like Memory for Mobile Task Automation [[paper]](https://arxiv.org/abs/2312.03003)
+* AppAgent: Multimodal Agents as Smartphone Users [[paper]](https://arxiv.org/abs/2312.13771)
 
 ## Dataset
 * Mapping Natural Language Instructions to Mobile UI Action Sequences [[paper]](https://arxiv.org/abs/2005.03776)

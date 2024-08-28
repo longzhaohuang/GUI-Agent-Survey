@@ -27,6 +27,7 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
       - [Ui-Based Method](#Ui-Based-Method)
       - [Code-Based 、 Ui-Based Method](#Code-Based-、-Ui-Based-Method)
     - [User Interaction](#User-Interaction)
+    - [Personalized services](#Personalized-services) 
     - [Agent Synergy](#Agent-Synergy)
   - [Task Automation Pipeline](#Task-Automation-Pipeline)
   - [Dataset](#Dataset)

@@ -17,14 +17,18 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
   - [News](#news)
   - [Table of Contents](#table-of-contents)
   - [Related Paper](#related-paper)
-  - [GUI Environment Understanding](#GUI-Environment-Understanding)
-    - [Text-Based Understanding Method](#Text-Based-Understanding-Method)
-    - [Vision-Based Understanding Method](#Vision-Based-Understanding-Method)
-    - [Hybrid Text-Vision Understanding Method](#Hybrid-Text-Vision-Understanding-Method)
-  - [Device Control](#Device-Control)
-    - [Code-Based Method](#Code-Based-Method)
-    - [Ui-Based Method](#Ui-Based-Method)
-    - [Code-Based 、 Ui-Based Method](#Code-Based-、-Ui-Based-Method)
+  - [The core capability of GUI Agent](#The-core-capability-of-GUI-Agent)
+    - [GUI Environment Understanding](#GUI-Environment-Understanding)
+      - [Text-Based Understanding Method](#Text-Based-Understanding-Method)
+      - [Vision-Based Understanding Method](#Vision-Based-Understanding-Method)
+      - [Hybrid Text-Vision Understanding Method](#Hybrid-Text-Vision-Understanding-Method)
+    - [Device Control](#Device-Control)
+      - [Code-Based Method](#Code-Based-Method)
+      - [Ui-Based Method](#Ui-Based-Method)
+      - [Code-Based 、 Ui-Based Method](#Code-Based-、-Ui-Based-Method)
+    - [User Interaction](#User-Interaction)
+    - [Agent Synergy](#Agent-Synergy)
+    - [Task Automation Pipeline](#Task-Automation-Pipeline)
   - [Dataset](#Dataset)
 
 ## Related Paper
@@ -100,7 +104,7 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 #### Code-Based 、 Ui-Based Method
 * MMAC-Copilot: Multi-modal Agent Collaboration Operating System Copilot [[paper]](https://arxiv.org/abs/2404.18074)
 
-### User Intersection
+### User Interaction
 #### multi-turn dialogues
 * META-GUI: Towards Multi-modal Conversational Agents on Mobile GUI [[paper]](https://arxiv.org/abs/2205.11029)
 * WebLINX: Real-World Website Navigation with Multi-Turn Dialogue [[paper]](https://arxiv.org/abs/2402.05930)
@@ -109,7 +113,7 @@ The Graphical User Interface (GUI) is a visual method that allows users to inter
 ### Personalized services
 * Os-copilot: Towards generalist computer agents with self-improvement [[paper]](https://arxiv.org/abs/2402.07456)
 
-### User Intersection
+### Agent Synergy
 * UFO: A UI-Focused Agent for Windows OS Interaction [[paper]](https://arxiv.org/pdf/2402.07939)
 * MMAC-Copilot: Multi-modal Agent Collaboration Operating System Copilot [[paper]](https://arxiv.org/abs/2404.18074)
 * Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration [[paper]](https://arxiv.org/pdf/2406.01014)
